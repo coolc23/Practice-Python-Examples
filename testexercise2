@@ -1,0 +1,19 @@
+#!/usr/bin/python3.6
+
+
+num = int(input("Please choose a number: "))
+check = int(input("Please enter a number to divide by: "))
+
+
+chknum = num % 2
+if (chknum == 0):
+    print("Your number is an EVEN number")
+    if num % 4 == 0:
+        print("This number is MULTIPLE of 4 as well")
+    else:
+        print("This number is NOT A Multiple of 4")      
+    
+else:
+    print("Your number is an ODD number")
+    
+
