@@ -1,0 +1,22 @@
+
+#!/usr/bin/python3.6
+
+import datetime
+
+username = input("Please enter your name: ")
+userage = int(input("Please enter your age: "))
+
+
+year = datetime.date.today().year
+month = datetime.date.today().month
+
+print(int(year))
+print("Current year: ", year)
+
+print("Current month: ", month)
+
+x = 100 - userage
+
+print("You will be 100 in the year: ", year + x)
+
+
